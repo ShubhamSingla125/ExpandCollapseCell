@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     func getStudentList()->[Student]{
         var students : [Student] = []
         for value in 1...10{
-            students.append(Student(className: "MCA\(value)", isSelected: false, studentNameList: ["Ram hgsakdjgjkgfdskjhfdgshfgsjkfgsdjksdgfjksgfjsgjfkshgjfdsfgsjkdfhgsjkfsdf","Shyam","Mohan","Sohan"]))
+            students.append(Student(className: "Section\(value)", isSelected: false, studentNameList: ["Index 0","Index 1","Index 2","Index 3"]))
         }
         return students
     }
